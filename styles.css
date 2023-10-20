@@ -4,6 +4,7 @@
 
     padding: 1vw 6vw;
     background-color: var(--primary-background-color);
+    color: white;
   
 
 }
@@ -121,27 +122,63 @@ nav  a{
 
 /* Author styles starts here  */
 .authorSection{
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
 }
+
 .authorImage{
     position: relative;
+    width: 100%;
+    
+    
 }
 .imageBorder{
     position: absolute;
     border: 10px solid var(--secodary-background-color);
-    top: 3%;
-    left: 10%;
-    width: 95%;
-    height: 94vh;
-    z-index: -1;
-}
-.authorImg{
-    /* width: 50%; */
-    position: absolute;
+  
+
 }
 
+.authorimg{
+    /* padding: 1rem; */
+    /* width: 100%; */
+    /* position: absolute; */
+    /* border-right: 15px solid var(--secodary-background-color); */
+    /* border-bottom: 15px solid var(--secodary-background-color); */
+}
+.authorText{
+    width: 100%;
+    /* align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; */
+}
+
+.authorText h3{
+    font-size: 3.5vw;
+    text-align: center;
+}
+.authorText p{
+    font-size: 2vw;
+    /* text-align: center; */
+    
+}
+
+.bookPopularity{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.qrcode{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 @media (max-width:768px){
 
@@ -230,9 +267,44 @@ nav  a{
 
 
     /* author sections starts here  */
-    .imageBorder{
-        /* height: 33rem; */
-        width: 94%;
+    .authorSection{
+        display: flex;
+        flex-direction: column;
+
+    }
+   
+    .authorImage{
+        width: 100%;
+    }
+    
+    .authorText{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+    .authorimg img{
+    max-width: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    }
+    .bookPopularity{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .qrcode{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
 }
