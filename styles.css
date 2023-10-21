@@ -8,6 +8,9 @@
   
 
 }
+.bgc-primary{
+    background-color: var(--primary-background-color);
+}
 .paddingWrapper{
     padding: 1vw 6vw;
 
@@ -189,7 +192,7 @@ nav  a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 2vw;
+    gap: 4vw;
     width: 100%;
     flex-basis: 1;
 
@@ -202,7 +205,155 @@ nav  a{
     margin: 0 auto;
     /* width: 25%; */
 }
+.amazon h4{
+    margin-top: 3vw;
+    font-size: 3.3vw;
+}
 
+
+/* <!-- Get boo copy Today section  --> */
+.CpBook{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.cpbookText{
+    width: 50%;
+    line-height: 1.9;
+}
+.cpbookText button{
+    padding: 1vw 4vw;
+    margin: 1vw 0;
+    border-radius: 1vw;
+    /* background-color: var(--secodary-background-color); */
+    background:none;
+    border: 1px solid var(--secodary-background-color);
+    color: white;
+}
+.cpbookImage{
+    width: 50%;
+    display: flex;
+}
+
+
+/* !!!!!!!!!!! Learning Section !!!!!!! */
+.LearningSection h2{
+    text-align: center;
+}
+.learnContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.learningImage{
+    width: 50%;
+
+}
+.learningContainer{
+    
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3vw;
+}
+.learnText{
+    width: 100%;
+}
+
+/* !!!!!!!!!! Chapters section styles !!!!! */
+.Chapters h2,p{
+    text-align:center;
+}
+.Chapters button{
+    display: flex;
+   margin: 0 auto;
+   margin-top: 4vw;
+}
+.chaptersContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3vw;
+}
+
+/* !!!!!!!!!!! Reviews section !!!!!!!!!! */
+
+.reviewContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.reviewTitle{
+    width: 50%;
+}
+.reviewTitle h2{
+    text-align: center;
+}
+.personReview{
+    display: flex;
+    width: 50%;
+}
+.person1{
+    display: flex;
+    gap: 1vw;
+    color: white;
+    line-height: 1.4;
+}
+.imageAndName{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+.image_bt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.person2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personOneReview{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+
+/* !!!!!!!!!!!! article section !!!!!!!!!!! */
+.cardsContainer{
+    display: flex;
+    flex-basis: 1;
+}
+.card{
+    width: 100%;
+    padding: 1vw;
+    flex-basis: 1;
+    flex-grow: 1;
+}
+.card p{
+   text-align: left;
+}
+
+/* !!!!!!!!!!!! News letter section for subscribe !!!!!!!!!! */
+
+.bgc-secondary{
+    background-color: var(--secodary-background-color);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+.bgc-secondary h2{
+    text-align: center;
+}
+.subscribeButton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media (max-width:768px){
 
     /* !!!!!!!!! Navigation menu burger !!!!!!! */
@@ -331,5 +482,44 @@ nav  a{
         flex-wrap: wrap;
         padding: 1vw;
     }
+
+
+    /* !!!!!!Get copy books section !! */
+    .cpbookText{
+        /* width: 50%; */
+        line-height: 1.6;
+    }
+    
+    /* !!!!!!!! Learning Section !!!!!! */
+
+    
+.learningContainer{
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* !!!!!!!!!! Chapters section !!!!! */
+.chaptersContainer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3vw;
+}
+
+/* !!!!!!!!Review section starts here !!!!!!!! */
+
+.reviewContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+}
+
+.reviewTitle{
+    width: 100%;
+}
+.personReview{
+    display: flex;
+    width: 100%;
+}
 
 }
