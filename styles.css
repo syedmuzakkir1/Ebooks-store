@@ -273,8 +273,16 @@ nav  a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 3vw;
+    padding: 1vw;
 }
 
+.pages{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: center;
+}
 /* !!!!!!!!!!! Reviews section !!!!!!!!!! */
 
 .reviewContainer{
@@ -370,7 +378,10 @@ nav  a{
         /* overflow: hidden; */
 
     }
-
+#icon-bm:hover #menu{
+    display: block;
+    height: 16rem;
+}
     #icon-bm{
         font-size: 2.2rem;
         display: block;
@@ -382,7 +393,7 @@ nav  a{
 
 
     }
-
+/* 
     #menu-toggle:checked ~ #menu-icon #icon-bc{
         display: block;
         
@@ -397,7 +408,7 @@ nav  a{
     #menu-toggle:checked ~ #menu-icon + #menu{
         display: flex;
         height: 16rem;
-    }
+    } */
 
     #menu-icon {
         display: flex;
@@ -506,6 +517,8 @@ nav  a{
     gap: 3vw;
 }
 
+
+
 /* !!!!!!!!Review section starts here !!!!!!!! */
 
 .reviewContainer{
@@ -520,6 +533,11 @@ nav  a{
 .personReview{
     display: flex;
     width: 100%;
+}
+/* !!!!!!!!!Article section styles !!!!!!!! */
+.cardsContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 
 }
