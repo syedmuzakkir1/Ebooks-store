@@ -381,7 +381,7 @@ nav  a{
 /* #icon-bm:hover #menu{
     display: block;
     height: 16rem;
-}
+}*/
     #icon-bm{
         font-size: 2.2rem;
         display: block;
@@ -392,7 +392,7 @@ nav  a{
         font-size: 2.2rem;
 
 
-    } */
+    } 
     
 
     #menu-toggle:checked ~ #menu-icon #icon-bc{
