@@ -378,7 +378,7 @@ nav  a{
         /* overflow: hidden; */
 
     }
-#icon-bm:hover #menu{
+/* #icon-bm:hover #menu{
     display: block;
     height: 16rem;
 }
@@ -392,8 +392,9 @@ nav  a{
         font-size: 2.2rem;
 
 
-    }
-/* 
+    } */
+    
+
     #menu-toggle:checked ~ #menu-icon #icon-bc{
         display: block;
         
@@ -408,7 +409,7 @@ nav  a{
     #menu-toggle:checked ~ #menu-icon + #menu{
         display: flex;
         height: 16rem;
-    } */
+    }
 
     #menu-icon {
         display: flex;
