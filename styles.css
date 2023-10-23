@@ -21,6 +21,14 @@
     align-items: center;
     justify-content: center;
 }
+.btn{
+    padding: 1vw 3vw;
+    border: none;
+    background-color: var(--secodary-background-color);
+    color: var(--primary-background-color);
+    font-family: var(--cardo-font-family);
+    font-weight: 800;
+}
 main{
     display: grid;
     
@@ -68,10 +76,15 @@ nav{
     align-items: center;
     
 }
+.logo h2{
+    font-family: var(--inter-font-family);
+    margin-left: 1vw;
+}
 nav  a{
     text-decoration: none;
-    color: var(--teritary-background-color);
+    color: var(--fifth-background-color);
     padding: 1.3vw;
+    font-family: var(--inter-font-family);
 }
 
 /* !!!!!!!!!!!!! hero section styles !!!! */
@@ -239,8 +252,11 @@ nav  a{
     /* width: 25%; */
 }
 .amazon h4{
-    margin-top: 3vw;
-    font-size: 3.3vw;
+    margin: 2vw 0;
+    font-size: 2vw;
+    font-family: var(--cardo-font-family);
+    font-weight: bold;
+    color: var(--primary-background-color);
 }
 
 
@@ -253,6 +269,10 @@ nav  a{
 .cpbookText{
     width: 50%;
     line-height: 1.9;
+}
+.cpbookText h2{
+    font-size: 3.5vw;
+    font-family: var(--cardo-font-family);
 }
 .cpbookText p{
  text-align: left;
@@ -302,7 +322,7 @@ nav  a{
      gap: 1rem;
 }
 .roundedtext{
-    border-radius: 3vw;
+    border-radius: 50%;
     background-color: var(--secodary-background-color);
     padding: 1vw;
     margin:  1vw 0;
@@ -396,6 +416,9 @@ nav  a{
     justify-content: space-between;
     align-items: center;
 }
+.image_bt h3{
+    margin-left: 2vw;
+}
 .person2{
     display: flex;
     align-items: center;
@@ -461,6 +484,13 @@ nav  a{
 .footerContainer .pages>*, .explore>*, .utility_pages>*, .keep_in_touch>*{
     color: var(--fifth-background-color);
 }
+p{
+    color: var(--sixth-background-color);
+    font-family: var(--inter-font-family);
+    /* font-weight: 700; */
+    /* font-size: 4.5vw; */
+    
+}
 
 @media (max-width:768px){
 
@@ -470,7 +500,7 @@ nav  a{
         flex-direction: column;
         background-color: #333;
         width: 100%;
-        height: 300px;
+        /* height: 200px; */
         position: absolute;
         top: 55px;
         left: 0;
@@ -509,7 +539,7 @@ nav  a{
     }
     #menu-toggle:checked ~ #menu-icon + #menu{
         display: flex;
-        height: 16rem;
+        height: 14rem;
     }
 
     #menu-icon {
@@ -622,6 +652,9 @@ nav  a{
 .heading_fontsize{
     font-size: 7vw;
 }
+.amazon h4{
+    font-size: 5vw;
+}
 
     /* !!!!!!Get copy books section !! */
     .cpbookText{
@@ -636,6 +669,11 @@ nav  a{
         flex-direction: column;
     }
     
+   .cpbookText h2{
+    font-size: 6vw;
+   }
+
+
     /* !!!!!!!! Learning Section !!!!!! */
 
     
