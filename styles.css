@@ -174,10 +174,9 @@ nav  a{
 }
 
 .authorText h3{
-    font-size: 3.5vw;
+    /* font-size: 3.5vw; */
     text-align: center;
-    color: var(--primary-background-color);
-    font-family: var(--cardo-font-family);
+   
     margin: 0;
     padding: 0;
 
@@ -214,15 +213,12 @@ nav  a{
 /* !!!!!!!!!!!!!!!! Trusted by section styles !!!!!!!!! */
 .trustedBy h3{
     text-align: center;
-    font-size: 4vw;
-    font-family: var(--cardo-font-family);
-    color: var(--primary-background-color);
-    margin-bottom: 5vw;
 }
 .heading_fontsize{
     font-family: var(--cardo-font-family);
     color: var(--primary-background-color);
     margin-bottom: 5vw;
+    font-size: 4vw;
 }
 .companies {
     display: flex;
@@ -547,7 +543,7 @@ nav  a{
         padding: 2vw 5vw;
     }
     .heroHeading{
-        font-size: 5vw;
+        font-size: 8vw;
     }
     .heroText p{
         font-size: 2.3vw;
@@ -583,10 +579,10 @@ nav  a{
         flex-direction: column;
         line-height: 1.5;
     }
-    .authorText h3{
+    /* .authorText h3{
         font-size: 5vw;
 
-    }
+    } */
     .authorText p{
         font-size: 3.5vw;
     }
@@ -622,9 +618,9 @@ nav  a{
     }
 
 /* !!!!!!! Trusted by section !!!!!!! */
-.trustedBy h3{
+
+.heading_fontsize{
     font-size: 7vw;
-    
 }
 
     /* !!!!!!Get copy books section !! */
