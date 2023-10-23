@@ -55,6 +55,10 @@ body{
     /* width: 100vw; */
     /* height: 100vh; */
     line-height: 1.2;
+
+}
+.styles_body{
+    position: absolute;
 }
 img{
     width: 100%;
@@ -114,6 +118,8 @@ nav  a{
 .heroHeading{
     font-size: 5vw;
     color: var(--quarternery-background-color);
+    font-family: var(--cardo-font-family);
+    
 }
 .heroText p{
     font-size: 1.5vw;
@@ -135,6 +141,9 @@ nav  a{
 .authorImage{
     position: relative;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -154,15 +163,22 @@ nav  a{
 }
 .authorText{
     width: 100%;
-    /* align-items: center;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     display: flex;
-    flex-direction: column; */
+    flex-direction: column; 
+    /* gap: 2.5vw 0; */
+    color: var(--primary-background-color);
+
+
 }
 
 .authorText h3{
     font-size: 3.5vw;
     text-align: center;
+    color: var(--primary-background-color);
+    font-family: var(--cardo-font-family);
+
 }
 .authorText p{
     font-size: 2vw;
@@ -176,17 +192,35 @@ nav  a{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.bookPublished h2{
+    font-family: var(--cardo-font-family
+    );
+}
 .qrcode{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    /* padding: 3vw !important; */
+    margin-top: 1.5vw;
+}
+
+.qrtext h4{
+    color: var(--secodary-background-color);
 }
 /* !!!!!!!!!!!!!!!! Trusted by section styles !!!!!!!!! */
 .trustedBy h3{
     text-align: center;
     font-size: 4vw;
+    font-family: var(--cardo-font-family);
+    color: var(--primary-background-color);
+    margin-bottom: 5vw;
+}
+.heading_fontsize{
+    font-family: var(--cardo-font-family);
+    color: var(--primary-background-color);
+    margin-bottom: 5vw;
 }
 .companies {
     display: flex;
@@ -264,24 +298,52 @@ nav  a{
 }
 .learnText{
     width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    /* border-radius: 1rem; */
-     /* border: 1px solid red; */
+   
      padding: 1rem;
      background-color: var(--fifth-background-color);
      gap: 1rem;
 }
+.roundedtext{
+    border-radius: 3vw;
+    background-color: var(--secodary-background-color);
+    padding: 1vw;
+    margin:  1vw 0;
+    
+}
+.learnText p{
+    margin-top: 1vw;
+}
 
 /* !!!!!!!!!! Chapters section styles !!!!! */
 .Chapters{
-
+    
     background-color: var(--fifth-background-color);
 
 }
+.Chapters >p ,.trialBtn {
+    text-align: center;
+}
+.trialBtn{
+    background-color: var(--secodary-background-color);
+    padding: 2vw 6vw;
+    color: var(--primary-background-color);
+    border: none;
+    font-family: var(--cardo-font-family);
+    font-weight: bold;
+}
+.Chapters h3{
+    color: var(--primary-background-color);
+    font-weight: bold;
+    font-family: var(--cardo-font-family);
+    margin: 2vw 0;
+}
 .Chapters h2,p{
     text-align:left;
+    margin: 3.5vw 0;
+}
+.light_text{
+    color: var(--primary-background-color);
+    font-weight: 500;
 }
 .Chapters button{
     display: flex;
@@ -350,6 +412,9 @@ nav  a{
 
 
 /* !!!!!!!!!!!! article section !!!!!!!!!!! */
+.articleContainer{
+    background-color: var(--fifth-background-color);
+}
 .cardsContainer{
     display: flex;
     flex-basis: 1;
@@ -363,6 +428,13 @@ nav  a{
 .card p{
    text-align: left;
 }
+.card h3,a{
+    color: var(--primary-background-color);
+}
+.card h4{
+    color: var(--primary-background-color);
+}
+
 
 /* !!!!!!!!!!!! News letter section for subscribe !!!!!!!!!! */
 
@@ -381,6 +453,17 @@ nav  a{
     align-items: center;
     justify-content: center;
 }
+.bgc-secondary p{
+    margin: 0 0 2vw;
+    text-align: center;
+}
+
+
+/* !!!!!!!!!!!!!!Footer styles here !!!!!!!!!! */
+.footerContainer .pages>*, .explore>*, .utility_pages>*, .keep_in_touch>*{
+    color: var(--fifth-background-color);
+}
+
 @media (max-width:768px){
 
     /* !!!!!!!!! Navigation menu burger !!!!!!! */
@@ -413,10 +496,7 @@ nav  a{
 
     } 
     
-    body{
     
-        position: absolute;
-    }
 
     #menu-toggle:checked ~ #menu-icon #icon-bc{
         display: block;
@@ -469,6 +549,7 @@ nav  a{
     }
     .heroText p{
         font-size: 2.3vw;
+        text-align: center;
     }
     .heroImage{
         width: 100%;
@@ -482,12 +563,16 @@ nav  a{
         display: flex;
         flex-direction: column;
 
+
     }
    
     .authorImage{
         width: 100%;
     }
     
+    
+
+
     .authorText{
         display: flex;
         width: 100%;
@@ -495,6 +580,13 @@ nav  a{
         justify-content: center;
         flex-direction: column;
         line-height: 1.5;
+    }
+    .authorText h3{
+        font-size: 5vw;
+
+    }
+    .authorText p{
+        font-size: 3.5vw;
     }
     .authorimg img{
     max-width: 430px;
@@ -511,15 +603,28 @@ nav  a{
         flex-wrap: wrap;
     }
     
+
     .qrcode{
         display: flex;
-        width: 100%;
+        /* width: 100%; */
         justify-content: space-between;
+        padding: 1vw;
+        /* gap: 1vw; */
         align-items: center;
         flex-wrap: wrap;
-        padding: 1vw;
+        
+    }
+    .qrimage{
+         display: flex;
+         align-items: center;
+         justify-content: flex-start;
     }
 
+/* !!!!!!! Trusted by section !!!!!!! */
+.trustedBy h3{
+    font-size: 7vw;
+    
+}
 
     /* !!!!!!Get copy books section !! */
     .cpbookText{
