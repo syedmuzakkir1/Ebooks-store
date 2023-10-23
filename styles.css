@@ -178,6 +178,8 @@ nav  a{
     text-align: center;
     color: var(--primary-background-color);
     font-family: var(--cardo-font-family);
+    margin: 0;
+    padding: 0;
 
 }
 .authorText p{
@@ -201,8 +203,8 @@ nav  a{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    /* padding: 3vw !important; */
+    /* flex-wrap: wrap; */
+    gap: 3vw;
     margin-top: 1.5vw;
 }
 
@@ -339,7 +341,7 @@ nav  a{
 }
 .Chapters h2,p{
     text-align:left;
-    margin: 3.5vw 0;
+    /* margin: 3.5vw 0; */
 }
 .light_text{
     color: var(--primary-background-color);
@@ -608,10 +610,9 @@ nav  a{
         display: flex;
         /* width: 100%; */
         justify-content: space-between;
-        padding: 1vw;
-        /* gap: 1vw; */
+        /* padding: 1vw; */
+        gap: 3vw;
         align-items: center;
-        flex-wrap: wrap;
         
     }
     .qrimage{
