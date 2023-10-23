@@ -238,7 +238,7 @@ nav  a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 4vw;
+    gap: 6vw;
     width: 100%;
     flex-basis: 1;
 
@@ -250,6 +250,9 @@ nav  a{
     justify-content: center;
     margin: 0 auto;
     /* width: 25%; */
+}
+.amazon p{
+    text-align: center;
 }
 .amazon h4{
     margin: 2vw 0;
@@ -559,7 +562,7 @@ p{
    
     
     .heroHeading{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .heroText{
         width: 100%;
@@ -572,11 +575,11 @@ p{
     .heroText button{
         padding: 2vw 5vw;
     }
-    .heroHeading{
+    /* .heroHeading{
         font-size: 8vw;
-    }
+    } */
     .heroText p{
-        font-size: 2.3vw;
+        font-size: 1rem;
         text-align: center;
     }
     .heroImage{
@@ -653,7 +656,7 @@ p{
     font-size: 7vw;
 }
 .amazon h4{
-    font-size: 5vw;
+    font-size: 5.6vw;
 }
 
     /* !!!!!!Get copy books section !! */
