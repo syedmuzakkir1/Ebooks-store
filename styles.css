@@ -495,6 +495,44 @@ p{
     
 }
 
+
+
+
+/* Footer  section styles  */
+.pages>a{
+    /* width: 100%; */
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    /* padding: .4rem; */
+    
+}
+
+a{
+    text-decoration: none;
+}
+.explore{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 0;
+    font-family: var(--cardo-font-family);
+    font-size: 1.2rem;
+}
+.utility_pages{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--cardo-font-family);
+    font-size: 1.2rem;
+
+
+}
+.footerSecondSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
 @media (max-width:768px){
 
     /* !!!!!!!!! Navigation menu burger !!!!!!! */
