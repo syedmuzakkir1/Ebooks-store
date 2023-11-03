@@ -510,6 +510,7 @@ p{
 
 a{
     text-decoration: none;
+    margin: .2rem 0;
 }
 .explore{
 
@@ -529,6 +530,7 @@ a{
 }
 .footerSecondSection{
     display: flex;
+    gap: 10px;
     justify-content: space-between;
     padding: 1rem 0;
 }
