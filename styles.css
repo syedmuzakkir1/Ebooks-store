@@ -209,6 +209,7 @@ nav  a{
 .bookPublished h2{
     font-family: var(--cardo-font-family
     );
+    font-size: 3.5vw;
 }
 .qrcode{
     display: flex;
@@ -216,12 +217,15 @@ nav  a{
     justify-content: space-between;
     align-items: center;
     /* flex-wrap: wrap; */
-    gap: 3vw;
+    gap: 1.5rem;
     margin-top: 1.5vw;
+    background-color: var(--primary-background-color);
+    padding: .6rem;
 }
 
 .qrtext h4{
     color: var(--secodary-background-color);
+    font-size: 2.7vw;
 }
 /* !!!!!!!!!!!!!!!! Trusted by section styles !!!!!!!!! */
 .trustedBy h3{
@@ -307,7 +311,20 @@ nav  a{
 }
 .learningImage{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.learningImage img{
+    max-width: calc(100%, 70%);
+    /* min-width: 70%; */
+    
+}
+.learningImage a {
+    display: flex;
+    justify-content: flex-end;
 }
 .learningContainer{
     
@@ -388,20 +405,21 @@ nav  a{
 /* !!!!!!!!!!! Reviews section !!!!!!!!!! */
 
 .reviewContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* width: 100%; */
+    display: grid;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+    grid-template-areas: "one two "
+                          "one two ";
+    gap: 1rem;
+
 
 }
-.reviewTitle{
-    width: 50%;
-}
-.reviewTitle h2{
-    text-align: center;
-}
+
+
 .personReview{
     display: flex;
-    width: 50%;
 }
 .person1{
     display: flex;
@@ -442,6 +460,7 @@ nav  a{
 .cardsContainer{
     display: flex;
     flex-basis: 1;
+   
 }
 .card{
     width: 100%;
@@ -530,12 +549,24 @@ a{
 }
 .footerSecondSection{
     display: flex;
+    /* width: 50%; */
     gap: 10px;
     justify-content: space-between;
     padding: 1rem 0;
 }
 
-
+.threeCenter{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footerSecondSection{
+    width: 100%;
+}
+.keep_in_touch{
+    width: 33%;
+    width: 100%;
+}
 
 .underline {
 
@@ -687,7 +718,9 @@ a{
         flex-wrap: wrap;
     }
     
-
+.qrtext h4{
+    font-size: 5vw;
+}
     .qrcode{
         display: flex;
         /* width: 100%; */
@@ -734,12 +767,16 @@ a{
 
     
 
- 
+    .learningImage img{
+        width: 100%;
+        
+    }
 
  
 .learningContainer{
     /* display: grid; */
     /* grid-column: 1/3; */
+    
     width: 100%;
 }
 .learningImage{
@@ -769,13 +806,59 @@ a{
     width: 100%;
 }
 .personReview{
-    display: flex;
+   display: flex;
     width: 100%;
 }
-/* !!!!!!!!!Article section styles !!!!!!!! */
-.cardsContainer{
+.person1{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+
+}
+.image_bt {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    
 }
 
+/* !!!!!!!!!Article section styles !!!!!!!! */
+.cardsContainer{
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+    display: grid;
+    grid-template-areas: 
+     "one"
+     "two"
+     "three";
+}
+
+
+
+
+/* Footer section styles 
+ */
+
+
+ 
+.explore{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 0;
+    font-family: var(--cardo-font-family);
+    font-size: 1.2rem;
+}
+.utility_pages{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--cardo-font-family);
+    font-size: 1.2rem;
+
+
+}
+.footerSecondSection{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
 }
