@@ -107,6 +107,9 @@ nav  a{
     align-items: flex-end;
     justify-content: flex-end;
 }
+.underline_readme{
+    border-bottom: 3px solid var(--fifth-background-color);
+}
 .heroImg{
     max-width: 430px;
 
@@ -211,6 +214,10 @@ nav  a{
     );
     font-size: 3.5vw;
 }
+
+/* .heading_fontsize{
+    font-size: 7vw;
+} */
 .qrcode{
     display: flex;
     width: 100%;
@@ -401,6 +408,12 @@ nav  a{
     justify-content: space-between;
     /* flex-direction: column; */
     align-items: center;
+}
+.dotss{
+    width: 4rem;
+    height: 5rem;
+    background-color: var(--secodary-background-color);
+    border-radius: 50%;
 }
 /* !!!!!!!!!!! Reviews section !!!!!!!!!! */
 
@@ -647,13 +660,16 @@ a{
     
     .heroHeading{
         font-size: 3rem;
+        text-align: left;
     }
     .heroText{
         width: 100%;
         /* font-stretch: condensed; */
         line-height: 1.5;
-        padding: 2vw 0;
+        /* padding: 1rem 2rem; */
         text-align: center;
+
+        
     
     }
     .heroText button{
@@ -664,14 +680,20 @@ a{
     } */
     .heroText p{
         font-size: 1rem;
-        text-align: center;
+        text-align: left;
     }
     .heroImage{
+        margin: 1.2rem 0;
         width: 100%;
-        align-items: center;
-        justify-content: center;
+       display: grid;
+       grid-template-areas: 'one';
+       justify-content: center;
     }
-
+    
+    .heroButtons{
+           text-align: left;
+    }
+     
 
     /* author sections starts here  */
     .authorSection{
@@ -679,6 +701,12 @@ a{
         flex-direction: column;
 
 
+    }
+    .heading_fontsize{
+        font-size: 2rem;
+    }
+    .authorText h3{
+        margin: 1rem;
     }
    
     .authorImage{
@@ -715,7 +743,11 @@ a{
         width: 100%;
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
+        margin: 1rem 0;
+    }
+    .bookPublished h2{
+        font-size: 1.5rem;
     }
     
 .qrtext h4{
@@ -738,11 +770,12 @@ a{
 
 /* !!!!!!! Trusted by section !!!!!!! */
 
-.heading_fontsize{
-    font-size: 7vw;
+.companies{
+    gap: 2.8rem;
 }
 .amazon h4{
-    font-size: 5.6vw;
+    font-size: 1.5rem;
+    margin: 1rem 0;
 }
 
     /* !!!!!!Get copy books section !! */
@@ -837,6 +870,11 @@ a{
 /* Footer section styles 
  */
 
+ .footerContainer{
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; */
+ }
 
  
 .explore{
@@ -855,10 +893,16 @@ a{
 
 
 }
+.threeCenter{
+    display: flex;
+    flex-direction: column;
+}
 .footerSecondSection{
     display: flex;
     gap: 10px;
     justify-content: space-between;
     padding: 1rem 0;
 }
+
+
 }
