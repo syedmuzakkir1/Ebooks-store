@@ -135,6 +135,8 @@ nav  a{
     font-size: 5vw;
     color: var(--quarternery-background-color);
     font-family: var(--cardo-font-family);
+    letter-spacing: -0.08125rem;
+
     
 }
 .heroText p{
@@ -360,9 +362,11 @@ nav  a{
 }
 
 /* !!!!!!!!!! Chapters section styles !!!!! */
-.Chapters{
+.chapters{
     
     background-color: var(--fifth-background-color);
+    /* margin: 1rem 0; */
+    padding: 1rem .8rem;
 
 }
 .Chapters >p ,.trialBtn {
@@ -378,22 +382,29 @@ nav  a{
 }
 .Chapters h3{
     color: var(--primary-background-color);
-    font-weight: bold;
+    font-weight: bolder;
     font-family: var(--cardo-font-family);
     margin: 2vw 0;
+    font-size: 1.3rem;
+}
+.chapters h3{
+    letter-spacing: -0.003rem;
+
 }
 .Chapters h2,p{
     text-align:left;
     /* margin: 3.5vw 0; */
 }
 .light_text{
-    color: var(--primary-background-color);
-    font-weight: 500;
+    color: var(--sixth-background-color);
+    font-weight: 900;
 }
 .Chapters button{
     display: flex;
    margin: 0 auto;
-   margin-top: 4vw;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+
 }
 .chaptersContainer{
     display: grid;
@@ -409,12 +420,33 @@ nav  a{
     /* flex-direction: column; */
     align-items: center;
 }
-.dotss{
+/* .dots{
     width: 4rem;
     height: 5rem;
+    content: '';
     background-color: var(--secodary-background-color);
     border-radius: 50%;
+    color: var(--secodary-background-color);
+} */
+.pageFirst h4{
+    color: var(--primary-background-color);
+    font-size: 1rem;
 }
+
+.pageFirst h4::before{
+    content: '.';
+    /* margin: 20px; */
+    text-align: center;
+    margin: 0 auto;    
+    font-size: 3rem;
+    color: var(--secodary-background-color);
+    padding-right: .2rem ;
+
+}
+
+
+
+
 /* !!!!!!!!!!! Reviews section !!!!!!!!!! */
 
 .reviewContainer{
@@ -491,6 +523,25 @@ nav  a{
     color: var(--primary-background-color);
 }
 
+.card h3{
+    margin: 1rem 0;
+}
+.readmore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.readmore a {
+text-align: center;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 1.40625rem */
+letter-spacing: 0.0225rem;
+border-bottom: 3px solid var(--primary-background-color);
+}
 
 /* !!!!!!!!!!!! News letter section for subscribe !!!!!!!!!! */
 
@@ -498,7 +549,7 @@ nav  a{
     background-color: var(--secodary-background-color);
     display: flex;
     flex-direction: column;
-    padding: 2vw;
+    padding: 2rem;
 }
 .bgc-secondary h2{
     text-align: center;
@@ -508,12 +559,28 @@ nav  a{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .bgc-secondary p{
     margin: 0 0 2vw;
     text-align: center;
 }
 
+.bgc-secondary p{
+    color: var(--primary-background-color);
+}
+.subscribeBtn{
+    background-color: var(--primary-background-color);
+    color: var(--fifth-background-color);
+    padding: .5rem 2rem;
+    border: none;
+}
+.input_news{
+    padding: .5rem 2rem;
+    /* outline: none; */
+    border: none;
+
+}
 
 /* !!!!!!!!!!!!!!Footer styles here !!!!!!!!!! */
 .footerContainer .pages>*, .explore>*, .utility_pages>*, .keep_in_touch>*{
@@ -669,6 +736,9 @@ a{
         /* padding: 1rem 2rem; */
         text-align: center;
 
+    padding: 2.9rem 0 1rem 0;
+
+
         
     
     }
@@ -704,6 +774,9 @@ a{
     }
     .heading_fontsize{
         font-size: 2rem;
+        font-weight: 700;
+       line-height: 120%; /* 3.375rem */
+        letter-spacing: -0.05625rem;
     }
     .authorText h3{
         margin: 1rem;
@@ -751,7 +824,7 @@ a{
     }
     
 .qrtext h4{
-    font-size: 5vw;
+    font-size: 1.7rem;
 }
     .qrcode{
         display: flex;
@@ -792,8 +865,11 @@ a{
     }
     
    .cpbookText h2{
-    font-size: 6vw;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+
    }
+   
 
 
     /* !!!!!!!! Learning Section !!!!!! */
@@ -822,8 +898,25 @@ a{
 .chaptersContainer{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    gap: 3vw;
+    gap: 1.5rem;
 }
+
+.pageFirst h4{
+    color: var(--primary-background-color);
+    font-size: .8rem;
+}
+
+.pageFirst h4::before{
+    content: '.';
+    /* margin: 20px; */
+    text-align: center;
+    margin: 0 auto;    
+    font-size: 3rem;
+    color: var(--secodary-background-color);
+    padding-right: .2rem ;
+
+}
+
 
 
 
@@ -853,6 +946,10 @@ a{
     
 }
 
+.reviewTitle h2{
+    margin-top: 1rem;
+}
+
 /* !!!!!!!!!Article section styles !!!!!!!! */
 .cardsContainer{
     /* display: grid; */
@@ -862,6 +959,15 @@ a{
      "one"
      "two"
      "three";
+}
+.card h3{
+color: var(--primary-background-color);
+font-family: var(--cardo-font-family);
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 1.8rem */
+letter-spacing: -0.03rem;
 }
 
 
@@ -903,6 +1009,7 @@ a{
     justify-content: space-between;
     padding: 1rem 0;
 }
+
 
 
 }
