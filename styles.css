@@ -535,6 +535,19 @@ a{
     padding: 1rem 0;
 }
 
+
+
+.underline {
+
+
+    border-bottom: 3px solid var(--secodary-background-color);
+}
+
+.underline_last{
+
+    border-bottom: 3px solid var(--primary-background-color);
+}
+
 @media (max-width:768px){
 
     /* !!!!!!!!! Navigation menu burger !!!!!!! */
