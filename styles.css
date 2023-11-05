@@ -1,4 +1,8 @@
+/* Universal p  */
 
+p{
+    font-size: 1.1rem;
+}
 /* Navigatin styles starts here  */
 .wrapper{
       
@@ -747,7 +751,7 @@ img{
    
     
     .heroHeading{
-        font-size: 9vw;
+        font-size: 3.5rem;
         text-align: left;
     }
     .heroText{
@@ -770,11 +774,11 @@ img{
         font-size: 8vw;
     } */
     .heroText p{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         text-align: left;
     }
     .heroImage{
-        margin: 1.2rem 0;
+        margin: 2rem 0;
         width: 100%;
        display: grid;
        grid-template-areas: 'one';
@@ -794,11 +798,11 @@ img{
 
     }
     .heading_fontsize{
-        font-size: 5rem;
+        font-size: 2rem;
         /* font-size: 2rem; */
         font-weight: 700;
-       /* line-height: 120%; 3.375rem */
-        /* letter-spacing: -0.05625rem; */
+       line-height: 120%; 
+        letter-spacing: -0.05625rem;
     }
     .authorText h3{
         margin: 1rem;
@@ -846,7 +850,7 @@ img{
     }
     
 .qrtext h4{
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
     .qrcode{
         display: flex;
