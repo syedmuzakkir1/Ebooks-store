@@ -400,9 +400,14 @@ nav  a{
 }
 
 /* !!!!!!!!!! Chapters section styles !!!!! */
+.Chapters{
+    background-color: var(--fifth-background-color);
+    /*  */
+
+}
 .chapters{
     
-    background-color: var(--fifth-background-color);
+    background-color: var(--quarternery-background-color);
     /* margin: 1rem 0; */
     padding: 1rem .8rem;
 
@@ -547,9 +552,10 @@ nav  a{
 }
 .card{
     width: 100%;
-    padding: 1vw;
-    flex-basis: 1;
-    flex-grow: 1;
+    padding: 3vw;
+    /* flex-basis: 1; */
+    /* flex-grow: 1; */
+    line-height: 1.4;
 }
 .card p{
    text-align: left;
@@ -888,7 +894,7 @@ img{
     }
     
 .qrtext h4{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .qrtext p {
     font-size: 3vw;
@@ -1037,7 +1043,13 @@ line-height: 120%; /* 1.8rem */
 letter-spacing: -0.03rem;
 }
 
-
+/* News letter styles  */
+.bgc-secondary h2{
+    text-align: left;
+}
+.bgc-secondary p {
+    text-align: left;
+}
 
 
 /* Footer section styles 
