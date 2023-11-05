@@ -3,7 +3,7 @@
 .wrapper{
       
     /* padding: 1.5rem; */
-    /* padding: 1vw 8vw; */
+    padding: 1vw 6vw;
     background-color: var(--primary-background-color);
     color: white;
   
@@ -13,7 +13,7 @@
     background-color: var(--primary-background-color);
 }
 .paddingWrapper{
-    /* padding: 1vw 6vw; */
+    padding: 1vw 6vw;
 
 }
 .logo{
@@ -717,6 +717,9 @@ a{
         display: flex;
     
     }
+    img{
+        width: 100%;
+    }
 
     /* !!!!!!! hero section !!!!!!!!!!!!!! */
      
@@ -730,7 +733,7 @@ a{
    
     
     .heroHeading{
-        font-size: 3rem;
+        font-size: 8vw;
         text-align: left;
     }
     .heroText{
