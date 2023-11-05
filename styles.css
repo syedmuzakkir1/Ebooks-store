@@ -232,7 +232,7 @@ nav  a{
 }
 
 .heading_fontsize{
-    font-size: 9vw;
+    font-size: 6rem;
 }
 .qrcode{
     display: flex;
@@ -757,7 +757,7 @@ img{
         /* padding: 1rem 2rem; */
         text-align: center;
 
-    padding: 2.9rem 0 1rem 0;
+      /* padding: 2.9rem 0 1rem 0; */
 
 
         
@@ -770,7 +770,7 @@ img{
         font-size: 8vw;
     } */
     .heroText p{
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: left;
     }
     .heroImage{
@@ -794,7 +794,7 @@ img{
 
     }
     .heading_fontsize{
-        font-size: 9vw;
+        font-size: 5rem;
         /* font-size: 2rem; */
         font-weight: 700;
        /* line-height: 120%; 3.375rem */
