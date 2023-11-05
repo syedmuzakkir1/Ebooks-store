@@ -733,7 +733,7 @@ a{
    
     
     .heroHeading{
-        font-size: 8vw;
+        font-size: 9vw;
         text-align: left;
     }
     .heroText{
@@ -780,7 +780,8 @@ a{
 
     }
     .heading_fontsize{
-        font-size: 2rem;
+        font-size: 9vw;
+        /* font-size: 2rem; */
         font-weight: 700;
        line-height: 120%; /* 3.375rem */
         letter-spacing: -0.05625rem;
