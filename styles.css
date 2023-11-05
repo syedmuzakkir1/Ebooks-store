@@ -2,6 +2,9 @@
 
 p{
     font-size: 1.1rem;
+    /* margin-top: .4rem; */
+    padding-top: .4rem;
+
 }
 /* Navigatin styles starts here  */
 .wrapper{
@@ -218,7 +221,7 @@ nav  a{
 
 }
 .authorText p{
-    font-size: 2vw;
+    font-size: 1.1rem;
     /* text-align: center; */
     
 }
@@ -233,6 +236,23 @@ nav  a{
     font-family: var(--cardo-font-family
     );
     font-size: 3.5vw;
+}
+
+.bookPublished:nth-child(1){
+    border-right: 3px solid var(--secodary-background-color);
+   
+}
+.bookPublished:nth-child(2n){
+    border-right: 3px solid var(--secodary-background-color);
+   
+
+}
+.bookPublished {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: .5rem;
 }
 
 .heading_fontsize{
@@ -403,7 +423,7 @@ nav  a{
     font-weight: bolder;
     font-family: var(--cardo-font-family);
     margin: 2vw 0;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .chapters h3{
     letter-spacing: -0.003rem;
@@ -592,13 +612,16 @@ border-bottom: 3px solid var(--primary-background-color);
     color: var(--fifth-background-color);
     padding: .5rem 2rem;
     border: none;
+    width: 70%;
 }
 .input_news{
     padding: .5rem 2rem;
     /* outline: none; */
     border: none;
+    width: 100%;
 
 }
+
 
 
 /* !!!!!!!!!!!!!!Footer styles here !!!!!!!!!! */
@@ -823,19 +846,22 @@ img{
         flex-direction: column;
         line-height: 1.5;
     }
-    /* .authorText h3{
-        font-size: 5vw;
-
-    } */
-    .authorText p{
-        font-size: 3.5vw;
-    }
+   
     .authorimg img{
     max-width: 430px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+
+    }
+    .bookPublished:nth-child(1){
+        border-right: 3px solid var(--secodary-background-color);
+       
+    }
+    .bookPublished:nth-child(2n){
+        border-right: 3px solid var(--secodary-background-color);
+       
 
     }
     .bookPopularity{
@@ -845,12 +871,27 @@ img{
         flex-wrap: wrap; 
         margin: 1rem 0;
     }
+    .bookPublished{
+        padding-right: .5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
     .bookPublished h2{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
+    }
+    .bookPublished p{
+        font-size: 2.7vw;
     }
     
 .qrtext h4{
     font-size: 1.2rem;
+}
+.qrtext p {
+    font-size: 3vw;
 }
     .qrcode{
         display: flex;
