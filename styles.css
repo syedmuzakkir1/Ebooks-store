@@ -2,7 +2,7 @@
 /* Navigatin styles starts here  */
 .wrapper{
       
-    padding: 1rem  2.5rem;
+    padding: 1rem  1.5rem;
     /* padding: 1vw 6vw; */
     background-color: var(--primary-background-color);
     color: white;
@@ -12,7 +12,9 @@
 
 }
 
-
+/* main {
+    margin:  0 auto !important;
+} */
 
 .bgc-primary{
     background-color: var(--primary-background-color);
