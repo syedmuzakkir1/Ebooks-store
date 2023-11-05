@@ -2,8 +2,8 @@
 /* Navigatin styles starts here  */
 .wrapper{
       
-    /* padding: 1.5rem; */
-    padding: 1vw 6vw;
+    padding: 1rem  2rem;
+    /* padding: 1vw 6vw; */
     background-color: var(--primary-background-color);
     color: white;
 
@@ -12,16 +12,16 @@
 
 }
 
+.wrapper{
+    /* padding: ; */
+    padding: 1rem  1.5rem;
 
+}
 
 .bgc-primary{
     background-color: var(--primary-background-color);
 }
-.paddingWrapper{
-    padding: 1vw 6vw;
-    margin: 0 auto;
 
-}
 .logo{
     display: flex;
     color: white;
@@ -165,6 +165,8 @@ nav  a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
+    padding: .5rem  1.5rem;
+    
 }
 
 .authorImage{
@@ -248,6 +250,9 @@ nav  a{
     font-size: 2.7vw;
 }
 /* !!!!!!!!!!!!!!!! Trusted by section styles !!!!!!!!! */
+.trustedBy{
+    padding: .5rem 1.5rem;
+}
 .trustedBy h3{
     text-align: center;
 }
@@ -320,7 +325,9 @@ nav  a{
 
 
 /* !!!!!!!!!!! Learning Section !!!!!!! */
-
+.LearningSection{
+    padding: .5rem 1rem;
+}
 .LearningSection h2{
     text-align: center;
 }
@@ -373,12 +380,14 @@ nav  a{
 }
 
 /* !!!!!!!!!! Chapters section styles !!!!! */
+.Chapters{
+    padding: .5rem 1.5rem;
+}
 .chapters{
     
     background-color: var(--fifth-background-color);
     /* margin: 1rem 0; */
-    padding: 1rem .8rem;
-
+    padding: 1rem 0.5rem;
 }
 .Chapters >p ,.trialBtn {
     text-align: center;
@@ -512,6 +521,7 @@ nav  a{
 /* !!!!!!!!!!!! article section !!!!!!!!!!! */
 .articleContainer{
     background-color: var(--fifth-background-color);
+    padding: .5rem 1.5rem;
 }
 .cardsContainer{
     display: flex;
@@ -945,6 +955,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     gap: 4vw;
+    padding: .5rem 1.5rem;
 }
 
 .reviewTitle{
