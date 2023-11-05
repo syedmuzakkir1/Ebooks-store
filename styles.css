@@ -3,7 +3,7 @@
 .wrapper{
       
     /* padding: 1.5rem; */
-    padding: 1vw 4vw;
+    padding: 1vw 8vw;
     background-color: var(--primary-background-color);
     color: white;
   
@@ -13,7 +13,7 @@
     background-color: var(--primary-background-color);
 }
 .paddingWrapper{
-    padding:  4vw;
+    padding: 1vw 8vw;
 
 }
 .logo{
@@ -37,7 +37,9 @@ main{
     flex-direction: column;
     flex-wrap: wrap; */
     gap: 1rem;
-    margin: 0 auto;
+    /* margin: 0; */
+    /* padding: 1vw 8vw; */
+
 }
 
 .container {
@@ -45,7 +47,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
 }
 input[type=checkbox]{
