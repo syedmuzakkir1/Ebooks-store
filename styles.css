@@ -14,7 +14,7 @@
 
 .wrapper{
     /* padding: ; */
-    padding: 1rem  1.5rem;
+    /* padding: 1rem  1.5rem; */
 
 }
 
@@ -754,8 +754,9 @@ img{
    
     
     .heroHeading{
-        font-size: 9vw;
+        /* font-size: 9vw; */
         text-align: left;
+        font-size: 5rem;
     }
     .heroText{
         width: 100%;
